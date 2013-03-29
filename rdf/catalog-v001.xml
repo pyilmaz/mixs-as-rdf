@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1364429590500" name="duplicate:http://gensc.org/ns/mixs/terms/" uri="mixsterms.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1364429590500" name="duplicate:http://gensc.org/ns/mixs/terms/" uri="mixstermshistory.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1364429590500" name="duplicate:http://gensc.org/ns/mixs/terms_od" uri="mixsterms_owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1364429590500" name="duplicate:http://gensc.org/ns/mixs/terms_od" uri="mixsterms_owl_from_protege.rdf"/>
-    </group>
-</catalog>
