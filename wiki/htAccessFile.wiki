@@ -8,7 +8,7 @@ and map them to:
 
 http://gensc.org/ns/mixs/index.htm#ploidy
 
-The following is the .htaccess file that is used on the gensc server to re-write incoming requests like 
+The following is the .htaccess file that is inserted on the gensc server under public_html/ns/mixs to re-write incoming requests. This piece of code is not inserted into the code repository as the system could theoretically be deployed in different environments and have different rewrite needs. 
 
 {{{
 Options +FollowSymLinks +SymLinksIfOwnerMatch
