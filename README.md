@@ -1,4 +1,4 @@
-*Introduction*
+**Introduction**
 
 The purpose of the "MIxS as RDF" project / codesite is to act as a repository for an RDF representation of the MIxS checklists.    The outputs presented here were constructed using the same processing techniques that were used to generate the Darwin Core RDF file, and hence look similar and are constructed in a similar manner.  Work on this project was suggested initially through the genomic biodiversity working group efforts and completed at the March 26-29 Seattle RCN4GSC/EAGER workshop.   
 
@@ -12,7 +12,7 @@ Some useful links:
   * [https://github.com/pyilmaz/mixs-as-rdf/blob/master/rdf/mixsterms_owl.rdf MIxS As RDF terms using OWL syntax, viewable in Protege]
   * [http://bioportal.bioontology.org/ontologies/3215 MIxS As RDF in BioPortal, which only lists "classes", not "properties".  It links to the RDF file in the preceding bullet point.]
 
-*Namespace/Term Naming*
+**Namespace/Term Naming**
 
 The process we undertook to map the existing MIxS terms, which exist as a checklist of terms without URI references, is clarified here.    The first step we undertook was to map ALL of the MIxS terms to be represented as URIs, such as changing health_disease_status to http://gensc.org/ns/mixs/healthDiseaseStatus.   The second step was, where those terms that directly map to DwC terms, we proposed the DwC term.    In cases where a DwC URI is used in place of the newly minted MIxS URI, we created a mapping between the older term and the newer term.  The relevant points we undertook are:
 
@@ -30,7 +30,7 @@ The process we undertook to map the existing MIxS terms, which exist as a checkl
     * alt_elev = http://rs.tdwg.org/dwc/terms/verbatimElevation
     * geo_loc_name = http://rs.tdwg.org/dwc/terms/locality
 
-*Classes*
+**Classes**
 
 MIxS does not define official classes but we opted to create them to conform to the DwC approach.  There are no domains/ranges defined here, so the classes are meant to designate logical groupings of properties only.   The defined classes are:
 
